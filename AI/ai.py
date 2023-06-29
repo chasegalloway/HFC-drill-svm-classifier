@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import os
 
+print("Booting up...")
 # Define the paths to the positive and negative image directories
 positive_images_dir = "positive_images/"
 negative_images_dir = "negative_images/"
@@ -11,7 +12,7 @@ neutral_images_dir = "neutral_images/"
 classifier_path = "hickory_stick_classifier.xml"
 
 # Define the dimensions of the positive and negative images for training
-image_size = (50, 50)
+image_size = (4032, 3024)
 
 # Create an array to store the positive, negative, and neutral samples
 positive_samples = []
@@ -42,6 +43,18 @@ for filename in os.listdir(neutral_images_dir):
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         neutral_samples.append(gray)
 
+# Check number of training images
+print("Number of positive samples:", len(positive_samples))
+print("Number of negative samples:", len(negative_samples))
+print("Number of neutral samples:", len(neutral_samples))
+
+if len(positive_samples) == 0:
+    print("No positive samples")
+if len(negative_samples) == 0:
+    print("No negative samples")
+if len(neutral_samples) == 0:
+    print("No neutral samples")
+
 # Create arrays for positive, negative, and neutral labels
 positive_labels = np.ones(len(positive_samples), dtype=int)
 negative_labels = np.zeros(len(negative_samples), dtype=int)
@@ -59,7 +72,12 @@ svm = cv2.ml.SVM_create()
 svm.setType(cv2.ml.SVM_C_SVC)
 svm.setKernel(cv2.ml.SVM_LINEAR)
 
+# Reshape the samples array
+num_samples, _, _ = samples.shape
+samples = samples.reshape(num_samples, -1)
+
 # Train the classifier
+samples = samples.astype(np.float32)  # Convert samples to CV_32F
 svm.train(samples, cv2.ml.ROW_SAMPLE, labels)
 
 # Save the trained classifier
@@ -81,25 +99,26 @@ while running:
     # Read the frame from the video capture
     ret, frame = cap.read()
 
-# Convert the frame to grayscale for detection
-gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    # Convert the frame to grayscale for detection
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-# Detect hickory sticks in the frame
-sticks = detector.detectMultiScale(gray)
+    # Detect hickory sticks in the frame
+    sticks = detector.detectMultiScale(gray)
 
-# Draw bounding boxes around the detected hickory sticks
-for (x, y, w, h) in sticks:
-    cv2.rectangle(frame, (x, y), (x + w, y + h), (150, 75, 0), 2)
+    # Draw bounding boxes around the detected hickory sticks
+    for (x, y, w, h) in sticks:
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (150, 75, 0), 2)
+        cv2.putText(frame, 'stick', (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (150, 75, 0), 2)
 
-# Display the processed frame on a screen
-cv2.imshow('Frame', frame)
+    # Display the processed frame on a screen
+    cv2.imshow('Frame', frame)
 
-# Check for key press
-key = cv2.waitKey(1) & 0xFF
+    # Check for key press
+    key = cv2.waitKey(1) & 0xFF
 
-# If key 'q' is pressed, set the running flag to False
-if key == ord('q'):
-    running = False
+    # If key 'q' is pressed, set the running flag to False
+    if key == ord('q'):
+        running = False
 
 # Release the video capture
 cap.release()
