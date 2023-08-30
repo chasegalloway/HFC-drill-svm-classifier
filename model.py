@@ -8,7 +8,7 @@ negative_images_dir = "Training Data/negative_images/"
 neutral_images_dir = "Training Data/neutral_images/"
 
 # Define the path to store the trained classifier
-classifier_path = "Training Data/hickory_stick_classifier.xml"
+classifier_path = "Training Data/classifier.xml"
 
 # Define the dimensions of the positive and negative images for training
 image_size = (4032, 3024)

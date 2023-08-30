@@ -1,7 +1,7 @@
 import cv2
 
 # Define the path to the trained classifier
-classifier_path = "Training Data/hickory_stick_classifier.xml"
+classifier_path = "Training Data/classifier.xml"
 
 # Load the trained classifier for detection
 svm = cv2.ml.SVM_load(classifier_path)
@@ -30,8 +30,8 @@ while running:
 
     # Draw bounding boxes around the detected hickory sticks
     for (x, y, w, h) in sticks:
-        cv2.rectangle(frame, (x, y), (x + w, y + h), (150, 75, 0), 2)
-        cv2.putText(frame, 'stick', (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (150, 75, 0), 2)
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
+        cv2.putText(frame, 'stick', (x, y - 10), cv2.FONT_HERSHEY_PLAIN, 0.9, (0, 0, 255), 2)
 
     # Display the processed frame on a screen
     cv2.imshow('Frame', frame)
@@ -39,9 +39,15 @@ while running:
     # Check for key press
     key = cv2.waitKey(1) & 0xFF
 
-    # If key 'q' is pressed, set the running flag to False
+    # Key actions
     if key == ord('q'):
         running = False
+    if key == ord('w'):
+        print("w")
+    if key == ord('e'):
+        print("e")
+    if key == ord('r'):
+        print("r")
 
 # Release the video capture
 cap.release()
