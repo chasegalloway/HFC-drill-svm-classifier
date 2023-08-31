@@ -1,7 +1,7 @@
 import cv2
 
 # Define the path to the trained classifier
-classifier_path = "Training Data/classifier.xml"
+classifier_path = "training_data/classifier.xml"
 
 # Load the trained classifier for detection
 svm = cv2.ml.SVM_load(classifier_path)
