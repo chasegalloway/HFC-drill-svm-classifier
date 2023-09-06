@@ -31,7 +31,7 @@ def overlay_images(subject_path, background_path, output_path):
 
     # Save the overlaid image
     overlaid_image.save(output_path)
-    print(f"Overlayed image saved at {output_path}")
+    print(f"Overlaid image saved at {output_path}")
 
 
 if __name__ == "__main__":
@@ -42,4 +42,4 @@ if __name__ == "__main__":
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    overlay_images(subjects_folder, backgrounds_folder, os.path.join(output_folder, "overlayed_image.png"))
+    overlay_images(subjects_folder, backgrounds_folder, os.path.join(output_folder, "overlaid_image.png"))
