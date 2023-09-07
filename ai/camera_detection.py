@@ -45,6 +45,7 @@ while running:
 
     # Key actions(Will be applied later)
     if key == ord('q'):
+        print("Shut down")
         running = False
     if key == ord('w'):
         print("Stop")
