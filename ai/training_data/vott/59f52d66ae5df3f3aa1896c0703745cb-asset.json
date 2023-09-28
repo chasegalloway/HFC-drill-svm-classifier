@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "59f52d66ae5df3f3aa1896c0703745cb",
+        "name": "wood-log-as-fire-wood-in-front-of-a-white-background-DKNCW1.jpg",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/wood-log-as-fire-wood-in-front-of-a-white-background-DKNCW1.jpg",
+        "size": {
+            "width": 1300,
+            "height": 953
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "GFR5ax5YM",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 665.837748344371,
+                "width": 1146.2264866504854,
+                "left": 74.8900182038835,
+                "top": 104.13576158940397
+            },
+            "points": [
+                {
+                    "x": 74.8900182038835,
+                    "y": 104.13576158940397
+                },
+                {
+                    "x": 1221.116504854369,
+                    "y": 104.13576158940397
+                },
+                {
+                    "x": 1221.116504854369,
+                    "y": 769.973509933775
+                },
+                {
+                    "x": 74.8900182038835,
+                    "y": 769.973509933775
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "3efa04b0ae854d9661c69d52cf6cc231",
+        "name": "pngtree-wooden-stick-png-image_2427169.jpg",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/pngtree-wooden-stick-png-image_2427169.jpg",
+        "size": {
+            "width": 360,
+            "height": 240
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "pyhCZG7N2",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 211.90635451505017,
+                "width": 190.63545150501673,
+                "left": 38.929765886287626,
+                "top": 28.093645484949832
+            },
+            "points": [
+                {
+                    "x": 38.929765886287626,
+                    "y": 28.093645484949832
+                },
+                {
+                    "x": 229.56521739130434,
+                    "y": 28.093645484949832
+                },
+                {
+                    "x": 229.56521739130434,
+                    "y": 240
+                },
+                {
+                    "x": 38.929765886287626,
+                    "y": 240
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

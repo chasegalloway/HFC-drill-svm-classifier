@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "77fe84f4b33edf41b14d9fdf6f2f3ebd",
+        "name": "pine-log-isolated-on-a-white-background-2AC7F1G.jpg",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/pine-log-isolated-on-a-white-background-2AC7F1G.jpg",
+        "size": {
+            "width": 1300,
+            "height": 1003
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "q5N1rZPcV",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 647.6324503311258,
+                "width": 1006.1302681992337,
+                "left": 172.5654533844189,
+                "top": 151.11423841059604
+            },
+            "points": [
+                {
+                    "x": 172.5654533844189,
+                    "y": 151.11423841059604
+                },
+                {
+                    "x": 1178.6957215836526,
+                    "y": 151.11423841059604
+                },
+                {
+                    "x": 1178.6957215836526,
+                    "y": 798.7466887417219
+                },
+                {
+                    "x": 172.5654533844189,
+                    "y": 798.7466887417219
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

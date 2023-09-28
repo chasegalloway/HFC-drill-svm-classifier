@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "cc2a941d13e4a1224435f3e22f358d7c",
+        "name": "95798268-knot-of-wood-stick-on-white-background.jpg",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/95798268-knot-of-wood-stick-on-white-background.jpg",
+        "size": {
+            "width": 1300,
+            "height": 601
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "AczvPoMoq",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 208.53975903614457,
+                "width": 1079.7101449275362,
+                "left": 111.59420289855072,
+                "top": 233.67948042168675
+            },
+            "points": [
+                {
+                    "x": 111.59420289855072,
+                    "y": 233.67948042168675
+                },
+                {
+                    "x": 1191.304347826087,
+                    "y": 233.67948042168675
+                },
+                {
+                    "x": 1191.304347826087,
+                    "y": 442.21923945783135
+                },
+                {
+                    "x": 111.59420289855072,
+                    "y": 442.21923945783135
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

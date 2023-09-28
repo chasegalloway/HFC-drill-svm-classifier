@@ -6,12 +6,12 @@ classifier_path = "training_data/classifier.xml"
 # Load the trained classifier for detection
 svm = cv2.ml.SVM_load(classifier_path)
 
-print("Classifier loaded")
+print("Classifier Loaded")
 
 # Create the Haar cascade classifier for detection
 detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-print("Haar cascade classifier created")
+print("Haar Cascade Classifier Created")
 
 # Initialize the video capture
 cap = cv2.VideoCapture(0)
@@ -43,7 +43,7 @@ while running:
     # Check for key press
     key = cv2.waitKey(1) & 0xFF
 
-    # Key actions(Will be applied later)
+    # Key actions(Will be better applied later)
     if key == ord('q'):
         print("Shut down")
         running = False

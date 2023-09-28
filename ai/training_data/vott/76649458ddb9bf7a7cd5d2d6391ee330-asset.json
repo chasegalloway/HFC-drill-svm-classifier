@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "76649458ddb9bf7a7cd5d2d6391ee330",
+        "name": "wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.jpg",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.jpg",
+        "size": {
+            "width": 400,
+            "height": 400
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "B_G5l3mR4",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 226.49006622516558,
+                "width": 323.841059602649,
+                "left": 42.05298013245034,
+                "top": 70.86092715231788
+            },
+            "points": [
+                {
+                    "x": 42.05298013245034,
+                    "y": 70.86092715231788
+                },
+                {
+                    "x": 365.89403973509934,
+                    "y": 70.86092715231788
+                },
+                {
+                    "x": 365.89403973509934,
+                    "y": 297.35099337748346
+                },
+                {
+                    "x": 42.05298013245034,
+                    "y": 297.35099337748346
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

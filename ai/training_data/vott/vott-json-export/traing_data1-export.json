@@ -1,0 +1,936 @@
+{
+    "name": "traing_data1",
+    "securityToken": "traing_data1 Token",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "stick",
+            "color": "#5db300"
+        }
+    ],
+    "id": "GdKtl6rYr",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "e165988d77aee4597f362efc09307d98",
+    "assets": {
+        "e165988d77aee4597f362efc09307d98": {
+            "asset": {
+                "format": "png",
+                "id": "e165988d77aee4597f362efc09307d98",
+                "name": "wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.png",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.png",
+                "size": {
+                    "width": 1920,
+                    "height": 1920
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "Ch7HlNzFb",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 1004.5033112582781,
+                        "width": 1665.6953642384105,
+                        "left": 116.02649006622516,
+                        "top": 473.6423841059602
+                    },
+                    "points": [
+                        {
+                            "x": 116.02649006622516,
+                            "y": 473.6423841059602
+                        },
+                        {
+                            "x": 1781.7218543046356,
+                            "y": 473.6423841059602
+                        },
+                        {
+                            "x": 1781.7218543046356,
+                            "y": 1478.1456953642382
+                        },
+                        {
+                            "x": 116.02649006622516,
+                            "y": 1478.1456953642382
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "76649458ddb9bf7a7cd5d2d6391ee330": {
+            "asset": {
+                "format": "jpg",
+                "id": "76649458ddb9bf7a7cd5d2d6391ee330",
+                "name": "wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.jpg",
+                "size": {
+                    "width": 400,
+                    "height": 400
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "B_G5l3mR4",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 226.49006622516558,
+                        "width": 323.841059602649,
+                        "left": 42.05298013245034,
+                        "top": 70.86092715231788
+                    },
+                    "points": [
+                        {
+                            "x": 42.05298013245034,
+                            "y": 70.86092715231788
+                        },
+                        {
+                            "x": 365.89403973509934,
+                            "y": 70.86092715231788
+                        },
+                        {
+                            "x": 365.89403973509934,
+                            "y": 297.35099337748346
+                        },
+                        {
+                            "x": 42.05298013245034,
+                            "y": 297.35099337748346
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "59f52d66ae5df3f3aa1896c0703745cb": {
+            "asset": {
+                "format": "jpg",
+                "id": "59f52d66ae5df3f3aa1896c0703745cb",
+                "name": "wood-log-as-fire-wood-in-front-of-a-white-background-DKNCW1.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/wood-log-as-fire-wood-in-front-of-a-white-background-DKNCW1.jpg",
+                "size": {
+                    "width": 1300,
+                    "height": 953
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "GFR5ax5YM",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 665.837748344371,
+                        "width": 1146.2264866504854,
+                        "left": 74.8900182038835,
+                        "top": 104.13576158940397
+                    },
+                    "points": [
+                        {
+                            "x": 74.8900182038835,
+                            "y": 104.13576158940397
+                        },
+                        {
+                            "x": 1221.116504854369,
+                            "y": 104.13576158940397
+                        },
+                        {
+                            "x": 1221.116504854369,
+                            "y": 769.973509933775
+                        },
+                        {
+                            "x": 74.8900182038835,
+                            "y": 769.973509933775
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "e9e990ba54ee3f8575e9818cc2b8d3cc": {
+            "asset": {
+                "format": "png",
+                "id": "e9e990ba54ee3f8575e9818cc2b8d3cc",
+                "name": "stick-official-the-forest-wiki-26.png",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/stick-official-the-forest-wiki-26.png",
+                "size": {
+                    "width": 250,
+                    "height": 250
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "RVtESUKAN",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 246.6887417218543,
+                        "width": 247.10264900662253,
+                        "left": 1.0347682119205297,
+                        "top": 2.0695364238410594
+                    },
+                    "points": [
+                        {
+                            "x": 1.0347682119205297,
+                            "y": 2.0695364238410594
+                        },
+                        {
+                            "x": 248.13741721854305,
+                            "y": 2.0695364238410594
+                        },
+                        {
+                            "x": 248.13741721854305,
+                            "y": 248.75827814569536
+                        },
+                        {
+                            "x": 1.0347682119205297,
+                            "y": 248.75827814569536
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "3efa04b0ae854d9661c69d52cf6cc231": {
+            "asset": {
+                "format": "jpg",
+                "id": "3efa04b0ae854d9661c69d52cf6cc231",
+                "name": "pngtree-wooden-stick-png-image_2427169.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/pngtree-wooden-stick-png-image_2427169.jpg",
+                "size": {
+                    "width": 360,
+                    "height": 240
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "pyhCZG7N2",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 211.90635451505017,
+                        "width": 190.63545150501673,
+                        "left": 38.929765886287626,
+                        "top": 28.093645484949832
+                    },
+                    "points": [
+                        {
+                            "x": 38.929765886287626,
+                            "y": 28.093645484949832
+                        },
+                        {
+                            "x": 229.56521739130434,
+                            "y": 28.093645484949832
+                        },
+                        {
+                            "x": 229.56521739130434,
+                            "y": 240
+                        },
+                        {
+                            "x": 38.929765886287626,
+                            "y": 240
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "77fe84f4b33edf41b14d9fdf6f2f3ebd": {
+            "asset": {
+                "format": "jpg",
+                "id": "77fe84f4b33edf41b14d9fdf6f2f3ebd",
+                "name": "pine-log-isolated-on-a-white-background-2AC7F1G.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/pine-log-isolated-on-a-white-background-2AC7F1G.jpg",
+                "size": {
+                    "width": 1300,
+                    "height": 1003
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "q5N1rZPcV",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 647.6324503311258,
+                        "width": 1006.1302681992337,
+                        "left": 172.5654533844189,
+                        "top": 151.11423841059604
+                    },
+                    "points": [
+                        {
+                            "x": 172.5654533844189,
+                            "y": 151.11423841059604
+                        },
+                        {
+                            "x": 1178.6957215836526,
+                            "y": 151.11423841059604
+                        },
+                        {
+                            "x": 1178.6957215836526,
+                            "y": 798.7466887417219
+                        },
+                        {
+                            "x": 172.5654533844189,
+                            "y": 798.7466887417219
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "0317e0a62c9da824222ab40e31ee4405": {
+            "asset": {
+                "format": "png",
+                "id": "0317e0a62c9da824222ab40e31ee4405",
+                "name": "lovepik-wood-stick-png-image_401057443_wh1200.png",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/lovepik-wood-stick-png-image_401057443_wh1200.png",
+                "size": {
+                    "width": 1200,
+                    "height": 800
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "7FIqWGe6R",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 709.0301003344482,
+                        "width": 628.7625418060201,
+                        "left": 132.44147157190636,
+                        "top": 90.96989966555184
+                    },
+                    "points": [
+                        {
+                            "x": 132.44147157190636,
+                            "y": 90.96989966555184
+                        },
+                        {
+                            "x": 761.2040133779265,
+                            "y": 90.96989966555184
+                        },
+                        {
+                            "x": 761.2040133779265,
+                            "y": 800
+                        },
+                        {
+                            "x": 132.44147157190636,
+                            "y": 800
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "f85da610445dfb9ecd78ef5e71f38c38": {
+            "asset": {
+                "format": "png",
+                "id": "f85da610445dfb9ecd78ef5e71f38c38",
+                "name": "lovepik-wood-stick-png-image_401057443_wh1200%20(1).png",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/lovepik-wood-stick-png-image_401057443_wh1200%20(1).png",
+                "size": {
+                    "width": 1200,
+                    "height": 800
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "cp7JZMW6-",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 707.6923076923077,
+                        "width": 630.1003344481605,
+                        "left": 129.76588628762542,
+                        "top": 92.3076923076923
+                    },
+                    "points": [
+                        {
+                            "x": 129.76588628762542,
+                            "y": 92.3076923076923
+                        },
+                        {
+                            "x": 759.866220735786,
+                            "y": 92.3076923076923
+                        },
+                        {
+                            "x": 759.866220735786,
+                            "y": 800
+                        },
+                        {
+                            "x": 129.76588628762542,
+                            "y": 800
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "aef6447b31710f7e9cb471aa38d92ab9": {
+            "asset": {
+                "format": "jpg",
+                "id": "aef6447b31710f7e9cb471aa38d92ab9",
+                "name": "istockphoto-537317925-170667a.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/istockphoto-537317925-170667a.jpg",
+                "size": {
+                    "width": 509,
+                    "height": 339
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "ThtwhcfnA",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 190.22613065326632,
+                        "width": 390.9710144927536,
+                        "left": 86.25195094760312,
+                        "top": 50.945822864321606
+                    },
+                    "points": [
+                        {
+                            "x": 86.25195094760312,
+                            "y": 50.945822864321606
+                        },
+                        {
+                            "x": 477.22296544035675,
+                            "y": 50.945822864321606
+                        },
+                        {
+                            "x": 477.22296544035675,
+                            "y": 241.17195351758795
+                        },
+                        {
+                            "x": 86.25195094760312,
+                            "y": 241.17195351758795
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "6b39263b1547692bc832164718bca4ee": {
+            "asset": {
+                "format": "jpeg",
+                "id": "6b39263b1547692bc832164718bca4ee",
+                "name": "images.jpeg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/images.jpeg",
+                "size": {
+                    "width": 312,
+                    "height": 161
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "VVwRz1Y5B",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 123.09719222462203,
+                        "width": 272,
+                        "left": 29.565217391304348,
+                        "top": 15.452348812095032
+                    },
+                    "points": [
+                        {
+                            "x": 29.565217391304348,
+                            "y": 15.452348812095032
+                        },
+                        {
+                            "x": 301.5652173913043,
+                            "y": 15.452348812095032
+                        },
+                        {
+                            "x": 301.5652173913043,
+                            "y": 138.54954103671707
+                        },
+                        {
+                            "x": 29.565217391304348,
+                            "y": 138.54954103671707
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "29fb4c01b8a3c341536742d1a29396f2": {
+            "asset": {
+                "format": "jpeg",
+                "id": "29fb4c01b8a3c341536742d1a29396f2",
+                "name": "images%20(2).jpeg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/images%20(2).jpeg",
+                "size": {
+                    "width": 225,
+                    "height": 225
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "btTj-JSHK",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 182.16059602649008,
+                        "width": 198.92384105960267,
+                        "left": 0.9312913907284769,
+                        "top": 0
+                    },
+                    "points": [
+                        {
+                            "x": 0.9312913907284769,
+                            "y": 0
+                        },
+                        {
+                            "x": 199.85513245033113,
+                            "y": 0
+                        },
+                        {
+                            "x": 199.85513245033113,
+                            "y": 182.16059602649008
+                        },
+                        {
+                            "x": 0.9312913907284769,
+                            "y": 182.16059602649008
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "4262c4a5e4a6800a17b424a086da3f71": {
+            "asset": {
+                "format": "jpeg",
+                "id": "4262c4a5e4a6800a17b424a086da3f71",
+                "name": "images%20(1).jpeg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/images%20(1).jpeg",
+                "size": {
+                    "width": 222,
+                    "height": 227
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "nT3EhyRJQ",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 140.93543046357615,
+                        "width": 217.86802030456855,
+                        "left": 1.8253489847715736,
+                        "top": 42.84437086092715
+                    },
+                    "points": [
+                        {
+                            "x": 1.8253489847715736,
+                            "y": 42.84437086092715
+                        },
+                        {
+                            "x": 219.6933692893401,
+                            "y": 42.84437086092715
+                        },
+                        {
+                            "x": 219.6933692893401,
+                            "y": 183.7798013245033
+                        },
+                        {
+                            "x": 1.8253489847715736,
+                            "y": 183.7798013245033
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "84138e1052f07504bc83cf42b6253e88": {
+            "asset": {
+                "format": "jpg",
+                "id": "84138e1052f07504bc83cf42b6253e88",
+                "name": "depositphotos_209288826-stock-photo-dry-wood-stick-isolated-white.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/depositphotos_209288826-stock-photo-dry-wood-stick-isolated-white.jpg",
+                "size": {
+                    "width": 781,
+                    "height": 1700
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "vRjSlfKff",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 1412.9139072847681,
+                        "width": 296.0469314079422,
+                        "left": 220.6254512635379,
+                        "top": 87.25165562913907
+                    },
+                    "points": [
+                        {
+                            "x": 220.6254512635379,
+                            "y": 87.25165562913907
+                        },
+                        {
+                            "x": 516.6723826714801,
+                            "y": 87.25165562913907
+                        },
+                        {
+                            "x": 516.6723826714801,
+                            "y": 1500.1655629139073
+                        },
+                        {
+                            "x": 220.6254512635379,
+                            "y": 1500.1655629139073
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "e049511f6099f70a49a28f8ba236ae41": {
+            "asset": {
+                "format": "png",
+                "id": "e049511f6099f70a49a28f8ba236ae41",
+                "name": "b8560d82-f451-4a2a-85a7-35066e601d99.png",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/b8560d82-f451-4a2a-85a7-35066e601d99.png",
+                "size": {
+                    "width": 768,
+                    "height": 768
+                },
+                "state": 2,
+                "type": 1,
+                "predicted": true
+            },
+            "regions": [
+                {
+                    "id": "BwczpZ7Hn",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 377.6423841059603,
+                        "width": 704.4238410596026,
+                        "left": 41.32450331125828,
+                        "top": 207.25827814569539
+                    },
+                    "points": [
+                        {
+                            "x": 41.32450331125828,
+                            "y": 207.25827814569539
+                        },
+                        {
+                            "x": 745.748344370861,
+                            "y": 207.25827814569539
+                        },
+                        {
+                            "x": 745.748344370861,
+                            "y": 584.9006622516556
+                        },
+                        {
+                            "x": 41.32450331125828,
+                            "y": 584.9006622516556
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "cc2a941d13e4a1224435f3e22f358d7c": {
+            "asset": {
+                "format": "jpg",
+                "id": "cc2a941d13e4a1224435f3e22f358d7c",
+                "name": "95798268-knot-of-wood-stick-on-white-background.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/95798268-knot-of-wood-stick-on-white-background.jpg",
+                "size": {
+                    "width": 1300,
+                    "height": 601
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "AczvPoMoq",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 208.53975903614457,
+                        "width": 1079.7101449275362,
+                        "left": 111.59420289855072,
+                        "top": 233.67948042168675
+                    },
+                    "points": [
+                        {
+                            "x": 111.59420289855072,
+                            "y": 233.67948042168675
+                        },
+                        {
+                            "x": 1191.304347826087,
+                            "y": 233.67948042168675
+                        },
+                        {
+                            "x": 1191.304347826087,
+                            "y": 442.21923945783135
+                        },
+                        {
+                            "x": 111.59420289855072,
+                            "y": 442.21923945783135
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "41554d411fad7ac1eee29bc61a0d511f": {
+            "asset": {
+                "format": "jpg",
+                "id": "41554d411fad7ac1eee29bc61a0d511f",
+                "name": "58592997-tree-stick-isolated-on-white-background.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/58592997-tree-stick-isolated-on-white-background.jpg",
+                "size": {
+                    "width": 322,
+                    "height": 1300
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "wc9urCxZE",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 1261.2582781456954,
+                        "width": 188.90666666666664,
+                        "left": 37.16416666666667,
+                        "top": 17.218543046357617
+                    },
+                    "points": [
+                        {
+                            "x": 37.16416666666667,
+                            "y": 17.218543046357617
+                        },
+                        {
+                            "x": 226.07083333333333,
+                            "y": 17.218543046357617
+                        },
+                        {
+                            "x": 226.07083333333333,
+                            "y": 1278.476821192053
+                        },
+                        {
+                            "x": 37.16416666666667,
+                            "y": 1278.476821192053
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "4c1d3a0f69d3b5e85827b728a1682f67": {
+            "asset": {
+                "format": "jpg",
+                "id": "4c1d3a0f69d3b5e85827b728a1682f67",
+                "name": "44241426-tree-stick-isolated-on-white-background.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/44241426-tree-stick-isolated-on-white-background.jpg",
+                "size": {
+                    "width": 852,
+                    "height": 1300
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "J6Wiv_gwd",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 1265.5629139072848,
+                        "width": 238.8181818181818,
+                        "left": 261.2746212121212,
+                        "top": 15.066225165562916
+                    },
+                    "points": [
+                        {
+                            "x": 261.2746212121212,
+                            "y": 15.066225165562916
+                        },
+                        {
+                            "x": 500.092803030303,
+                            "y": 15.066225165562916
+                        },
+                        {
+                            "x": 500.092803030303,
+                            "y": 1280.6291390728477
+                        },
+                        {
+                            "x": 261.2746212121212,
+                            "y": 1280.6291390728477
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "0e7078d79c4899c0554b4a8588f2eaec": {
+            "asset": {
+                "format": "jpg",
+                "id": "0e7078d79c4899c0554b4a8588f2eaec",
+                "name": "360_F_339280265_pjVvs1S2Z4RViCaAiZbsrlh5LpcnHF5x.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/360_F_339280265_pjVvs1S2Z4RViCaAiZbsrlh5LpcnHF5x.jpg",
+                "size": {
+                    "width": 882,
+                    "height": 360
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "iKztZ58Gn",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 121.9672131147541,
+                        "width": 787.6053511705686,
+                        "left": 51.130434782608695,
+                        "top": 123.99590163934425
+                    },
+                    "points": [
+                        {
+                            "x": 51.130434782608695,
+                            "y": 123.99590163934425
+                        },
+                        {
+                            "x": 838.7357859531772,
+                            "y": 123.99590163934425
+                        },
+                        {
+                            "x": 838.7357859531772,
+                            "y": 245.96311475409834
+                        },
+                        {
+                            "x": 51.130434782608695,
+                            "y": 245.96311475409834
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        },
+        "9757a25d9a097bb2645068b22e402826": {
+            "asset": {
+                "format": "jpg",
+                "id": "9757a25d9a097bb2645068b22e402826",
+                "name": "360_F_277084075_9L59oE7eHHeVze5YcTy3F1vrO7G7vU8v.jpg",
+                "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/360_F_277084075_9L59oE7eHHeVze5YcTy3F1vrO7G7vU8v.jpg",
+                "size": {
+                    "width": 1084,
+                    "height": 360
+                },
+                "state": 2,
+                "type": 1
+            },
+            "regions": [
+                {
+                    "id": "5jyr-HjmD",
+                    "type": "RECTANGLE",
+                    "tags": [
+                        "stick"
+                    ],
+                    "boundingBox": {
+                        "height": 146.17449664429532,
+                        "width": 882.185061315496,
+                        "left": 95.46934225195095,
+                        "top": 121.95679530201343
+                    },
+                    "points": [
+                        {
+                            "x": 95.46934225195095,
+                            "y": 121.95679530201343
+                        },
+                        {
+                            "x": 977.654403567447,
+                            "y": 121.95679530201343
+                        },
+                        {
+                            "x": 977.654403567447,
+                            "y": 268.13129194630875
+                        },
+                        {
+                            "x": 95.46934225195095,
+                            "y": 268.13129194630875
+                        }
+                    ]
+                }
+            ],
+            "version": "2.2.0"
+        }
+    }
+}

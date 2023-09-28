@@ -1,0 +1,278 @@
+{
+    "name": "trainng_data1",
+    "securityToken": "traing_data1 Token",
+    "sourceConnection": {
+        "name": "stick",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTdlZDc3ZGU2MzkyZjIzNjExMjY5YmNjOTM2YzE1MTZhOGIxNWM5MTFlOWNhYTVjNmUxNTcyZTkzMTBiOGQ2MDlkNDFjNmU2MGVjMDQ4NTg1ZTlkNjI4NTA2Y2IyYWZmNWI3Y2Y3ZDAyYTkxZmJmYjM5YWFjZDM4MzU3ZWUxZTk0MTUzZGNjZDNhNmI4MTFkYjYzZGRiMmUyOTM2NmExNiIsIml2IjoiYmM2NzA0ZWVhMzYxZDZkNjkzMmE5NzVmYjVhMDNjOWE1NDgxODQyYTY3ZGYwOTIxIn0="
+        },
+        "id": "4eFd388_Q"
+    },
+    "targetConnection": {
+        "name": "output",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDI5YzhiYzlmMjdlZjNhNTg5MmJiZmNhOTg2ODc3NGE2MTAyMjJhMzMxMjAyNmE0Y2FlODc0NjIxMjZmYzkzMDdmOTcwN2VkYjdiZWFmZDA4OTNjNGQwYzNhZTYwMjRkOTRmNzllNTA1ZGExZTczNjU0MTI0NjkwNzY1MDYyNTljOTczYjYxODY5MzViODhiM2U5Y2M5MmYzNzljMTliYiIsIml2IjoiNTZlMzg0ZGI0MzA1ZmMwNTlhOGFiOTI0OTNlYzg5Nzg5N2Q5NmVkY2QxMGMxZTk4In0="
+        },
+        "id": "dzpe_btm5"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "stick",
+            "color": "#5db300"
+        }
+    ],
+    "id": "GdKtl6rYr",
+    "activeLearningSettings": {
+        "modelPathType": "coco",
+        "autoDetect": false,
+        "predictTag": false
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYjk1OGM2MjRhOWNmNmMwYjQzYmMzZTQ2NDQ4NTA5NmM0MzgyMzRkNWU1OTI4ZDdiYzBiNzYwYjFlNjExZTk5MmY2YjQwNjc3ZTA0ODYyMzIwODQ5MWQwYTQ0ZDlmYjUxIiwiaXYiOiI1ZDYwMDRlOWMwYTAyNDE3OWVhNzk2YzVkMzdhYjU2MDJkYmVlYTI5MmJiYjg1ZGEifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "0317e0a62c9da824222ab40e31ee4405",
+    "assets": {
+        "9757a25d9a097bb2645068b22e402826": {
+            "format": "jpg",
+            "id": "9757a25d9a097bb2645068b22e402826",
+            "name": "360_F_277084075_9L59oE7eHHeVze5YcTy3F1vrO7G7vU8v.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/360_F_277084075_9L59oE7eHHeVze5YcTy3F1vrO7G7vU8v.jpg",
+            "size": {
+                "width": 1084,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e7078d79c4899c0554b4a8588f2eaec": {
+            "format": "jpg",
+            "id": "0e7078d79c4899c0554b4a8588f2eaec",
+            "name": "360_F_339280265_pjVvs1S2Z4RViCaAiZbsrlh5LpcnHF5x.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/360_F_339280265_pjVvs1S2Z4RViCaAiZbsrlh5LpcnHF5x.jpg",
+            "size": {
+                "width": 882,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c1d3a0f69d3b5e85827b728a1682f67": {
+            "format": "jpg",
+            "id": "4c1d3a0f69d3b5e85827b728a1682f67",
+            "name": "44241426-tree-stick-isolated-on-white-background.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/44241426-tree-stick-isolated-on-white-background.jpg",
+            "size": {
+                "width": 852,
+                "height": 1300
+            },
+            "state": 2,
+            "type": 1
+        },
+        "41554d411fad7ac1eee29bc61a0d511f": {
+            "format": "jpg",
+            "id": "41554d411fad7ac1eee29bc61a0d511f",
+            "name": "58592997-tree-stick-isolated-on-white-background.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/58592997-tree-stick-isolated-on-white-background.jpg",
+            "size": {
+                "width": 322,
+                "height": 1300
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc2a941d13e4a1224435f3e22f358d7c": {
+            "format": "jpg",
+            "id": "cc2a941d13e4a1224435f3e22f358d7c",
+            "name": "95798268-knot-of-wood-stick-on-white-background.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/95798268-knot-of-wood-stick-on-white-background.jpg",
+            "size": {
+                "width": 1300,
+                "height": 601
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e049511f6099f70a49a28f8ba236ae41": {
+            "format": "png",
+            "id": "e049511f6099f70a49a28f8ba236ae41",
+            "name": "b8560d82-f451-4a2a-85a7-35066e601d99.png",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/b8560d82-f451-4a2a-85a7-35066e601d99.png",
+            "size": {
+                "width": 768,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "84138e1052f07504bc83cf42b6253e88": {
+            "format": "jpg",
+            "id": "84138e1052f07504bc83cf42b6253e88",
+            "name": "depositphotos_209288826-stock-photo-dry-wood-stick-isolated-white.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/depositphotos_209288826-stock-photo-dry-wood-stick-isolated-white.jpg",
+            "size": {
+                "width": 781,
+                "height": 1700
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4262c4a5e4a6800a17b424a086da3f71": {
+            "format": "jpeg",
+            "id": "4262c4a5e4a6800a17b424a086da3f71",
+            "name": "images%20(1).jpeg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/images%20(1).jpeg",
+            "size": {
+                "width": 222,
+                "height": 227
+            },
+            "state": 2,
+            "type": 1
+        },
+        "29fb4c01b8a3c341536742d1a29396f2": {
+            "format": "jpeg",
+            "id": "29fb4c01b8a3c341536742d1a29396f2",
+            "name": "images%20(2).jpeg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/images%20(2).jpeg",
+            "size": {
+                "width": 225,
+                "height": 225
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b39263b1547692bc832164718bca4ee": {
+            "format": "jpeg",
+            "id": "6b39263b1547692bc832164718bca4ee",
+            "name": "images.jpeg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/images.jpeg",
+            "size": {
+                "width": 312,
+                "height": 161
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aef6447b31710f7e9cb471aa38d92ab9": {
+            "format": "jpg",
+            "id": "aef6447b31710f7e9cb471aa38d92ab9",
+            "name": "istockphoto-537317925-170667a.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/istockphoto-537317925-170667a.jpg",
+            "size": {
+                "width": 509,
+                "height": 339
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f85da610445dfb9ecd78ef5e71f38c38": {
+            "format": "png",
+            "id": "f85da610445dfb9ecd78ef5e71f38c38",
+            "name": "lovepik-wood-stick-png-image_401057443_wh1200%20(1).png",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/lovepik-wood-stick-png-image_401057443_wh1200%20(1).png",
+            "size": {
+                "width": 1200,
+                "height": 800
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0317e0a62c9da824222ab40e31ee4405": {
+            "format": "png",
+            "id": "0317e0a62c9da824222ab40e31ee4405",
+            "name": "lovepik-wood-stick-png-image_401057443_wh1200.png",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/lovepik-wood-stick-png-image_401057443_wh1200.png",
+            "size": {
+                "width": 1200,
+                "height": 800
+            },
+            "state": 2,
+            "type": 1
+        },
+        "77fe84f4b33edf41b14d9fdf6f2f3ebd": {
+            "format": "jpg",
+            "id": "77fe84f4b33edf41b14d9fdf6f2f3ebd",
+            "name": "pine-log-isolated-on-a-white-background-2AC7F1G.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/pine-log-isolated-on-a-white-background-2AC7F1G.jpg",
+            "size": {
+                "width": 1300,
+                "height": 1003
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3efa04b0ae854d9661c69d52cf6cc231": {
+            "format": "jpg",
+            "id": "3efa04b0ae854d9661c69d52cf6cc231",
+            "name": "pngtree-wooden-stick-png-image_2427169.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/pngtree-wooden-stick-png-image_2427169.jpg",
+            "size": {
+                "width": 360,
+                "height": 240
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e9e990ba54ee3f8575e9818cc2b8d3cc": {
+            "format": "png",
+            "id": "e9e990ba54ee3f8575e9818cc2b8d3cc",
+            "name": "stick-official-the-forest-wiki-26.png",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/stick-official-the-forest-wiki-26.png",
+            "size": {
+                "width": 250,
+                "height": 250
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "59f52d66ae5df3f3aa1896c0703745cb": {
+            "format": "jpg",
+            "id": "59f52d66ae5df3f3aa1896c0703745cb",
+            "name": "wood-log-as-fire-wood-in-front-of-a-white-background-DKNCW1.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/wood-log-as-fire-wood-in-front-of-a-white-background-DKNCW1.jpg",
+            "size": {
+                "width": 1300,
+                "height": 953
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "76649458ddb9bf7a7cd5d2d6391ee330": {
+            "format": "jpg",
+            "id": "76649458ddb9bf7a7cd5d2d6391ee330",
+            "name": "wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.jpg",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.jpg",
+            "size": {
+                "width": 400,
+                "height": 400
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "e165988d77aee4597f362efc09307d98": {
+            "format": "png",
+            "id": "e165988d77aee4597f362efc09307d98",
+            "name": "wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.png",
+            "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/wooden-log-as-firewood-isolated-on-a-transparent-background-created-with-generative-ai-png.png",
+            "size": {
+                "width": 1920,
+                "height": 1920
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        }
+    }
+}

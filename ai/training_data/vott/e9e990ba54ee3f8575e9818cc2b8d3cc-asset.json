@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "e9e990ba54ee3f8575e9818cc2b8d3cc",
+        "name": "stick-official-the-forest-wiki-26.png",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/stick-official-the-forest-wiki-26.png",
+        "size": {
+            "width": 250,
+            "height": 250
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "RVtESUKAN",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 246.6887417218543,
+                "width": 247.10264900662253,
+                "left": 1.0347682119205297,
+                "top": 2.0695364238410594
+            },
+            "points": [
+                {
+                    "x": 1.0347682119205297,
+                    "y": 2.0695364238410594
+                },
+                {
+                    "x": 248.13741721854305,
+                    "y": 2.0695364238410594
+                },
+                {
+                    "x": 248.13741721854305,
+                    "y": 248.75827814569536
+                },
+                {
+                    "x": 1.0347682119205297,
+                    "y": 248.75827814569536
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

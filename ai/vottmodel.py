@@ -1,69 +1,93 @@
-import cv2
-import numpy as np
 import os
-import json
+import numpy as np
+from sklearn import svm
+from sklearn.metrics import classification_report
+from sklearn.model_selection import train_test_split
+from skimage import io
+from skimage.feature import hog
+from skimage.transform import resize
+from xml.etree import ElementTree as ET
 
-# Define the paths to the .vott file and image directory
-vott_file_path = "training_data/vott/training_data.vott"
-image_dir = "training_data/images/"
 
-# Define the path to store the trained classifier
-classifier_path = "training_data/vott_classifier.xml"
+# Load the .vott file to extract image paths and annotations
+def load_vott_file(vott_file_path):
+    tree = ET.parse(vott_file_path)
+    root = tree.getroot()
 
-# Define the dimensions of the training images
-image_size = (4032, 3024)
+    image_paths = []
+    annotations = []
 
-# Create arrays to store samples and labels
-samples = []
-labels = []
+    for image in root.findall(".//image"):
+        image_path = image.find("path").text
+        image_paths.append(image_path)
 
-# Load the .vott file and parse it
-with open(vott_file_path, "r") as vott_file:
-    vott_data = json.load(vott_file)
+        image_annotations = []
+        for box in image.findall(".//box"):
+            label = box.find("label").text
+            x_min = float(box.find("xmin").text)
+            y_min = float(box.find("ymin").text)
+            x_max = float(box.find("xmax").text)
+            y_max = float(box.find("ymax").text)
+            image_annotations.append((label, x_min, y_min, x_max, y_max))
 
-# Iterate through the vott data to extract samples and labels
-for item in vott_data["assets"]:
-    image_filename = item["asset"]["name"]
-    image_path = os.path.join(image_dir, image_filename)
+        annotations.append(image_annotations)
 
-    if os.path.exists(image_path):
-        image = cv2.imread(image_path)
-        image = cv2.resize(image, image_size)
-        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        samples.append(gray)
+    return image_paths, annotations
 
-        # Determine the label based on the tag name in the .vott file
-        tag_name = item["regions"][0]["tags"][0]
-        if tag_name == "positive":
-            labels.append(1)
-        elif tag_name == "negative":
-            labels.append(0)
-        elif tag_name == "neutral":
-            labels.append(0)  # You may want to change this label based on your specific use case
 
-# Check the number of training samples
-print("Number of samples:", len(samples))
+# Extract HOG features from an image
+def extract_hog_features(image):
+    resized_image = resize(image, (128, 128))  # Resize the image to a fixed size
+    hog_features, _ = hog(resized_image, pixels_per_cell=(8, 8), cells_per_block=(2, 2), visualize=True)
+    return hog_features
 
-if len(samples) == 0:
-    print("No samples found in the .vott file")
 
-# Create the Haar cascade classifier for detection
-detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+# Load and preprocess the data
+def load_and_preprocess_data(vott_file_path):
+    image_paths, annotations = load_vott_file(vott_file_path)
 
-# Create the SVM classifier for training
-svm = cv2.ml.SVM_create()
-svm.setType(cv2.ml.SVM_C_SVC)
-svm.setKernel(cv2.ml.SVM_LINEAR)
+    X = []  # Feature vectors
+    y = []  # Labels (1 for stick, 0 for non-stick)
 
-# Reshape the samples array
-num_samples, _, _ = np.array(samples).shape
-samples = np.array(samples).reshape(num_samples, -1)
+    for image_path, image_annotations in zip(image_paths, annotations):
+        image = io.imread(image_path)
 
-# Train the classifier
-samples = samples.astype(np.float32)  # Convert samples to CV_32F
-labels = np.array(labels)
-svm.train(samples, cv2.ml.ROW_SAMPLE, labels)
+        for annotation in image_annotations:
+            label, x_min, y_min, x_max, y_max = annotation
+            roi = image[int(y_min):int(y_max), int(x_min):int(x_max)]  # Region of Interest
+            hog_features = extract_hog_features(roi)
+            X.append(hog_features)
+            y.append(1 if label == 'stick' else 0)
 
-# Save the trained classifier
-svm.save(classifier_path)
-print("Model saved")
+    return np.array(X), np.array(y)
+
+
+# Split the data into training and testing sets
+def split_data(X, y, test_size=0.2):
+    return train_test_split(X, y, test_size=test_size, random_state=42)
+
+
+# Train an SVM classifier
+def train_svm_classifier(X_train, y_train):
+    clf = svm.SVC(kernel='linear', C=1.0)
+    clf.fit(X_train, y_train)
+    return clf
+
+
+# Main function
+def main():
+    vott_file_path = 'C:/Users/chase/DrillAIv2/ai/training_data/vott/trainng_data1.vott'  # Replace with the path to your .vott file
+    X, y = load_and_preprocess_data(vott_file_path)
+    X_train, X_test, y_train, y_test = split_data(X, y)
+
+    print("Training SVM classifier...")
+    classifier = train_svm_classifier(X_train, y_train)
+
+    # Evaluate the model
+    y_pred = classifier.predict(X_test)
+    print("Classification Report:")
+    print(classification_report(y_test, y_pred))
+
+
+if __name__ == '__main__':
+    main()

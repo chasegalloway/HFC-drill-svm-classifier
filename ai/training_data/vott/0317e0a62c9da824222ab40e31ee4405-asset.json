@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "0317e0a62c9da824222ab40e31ee4405",
+        "name": "lovepik-wood-stick-png-image_401057443_wh1200.png",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/lovepik-wood-stick-png-image_401057443_wh1200.png",
+        "size": {
+            "width": 1200,
+            "height": 800
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "7FIqWGe6R",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 709.0301003344482,
+                "width": 628.7625418060201,
+                "left": 132.44147157190636,
+                "top": 90.96989966555184
+            },
+            "points": [
+                {
+                    "x": 132.44147157190636,
+                    "y": 90.96989966555184
+                },
+                {
+                    "x": 761.2040133779265,
+                    "y": 90.96989966555184
+                },
+                {
+                    "x": 761.2040133779265,
+                    "y": 800
+                },
+                {
+                    "x": 132.44147157190636,
+                    "y": 800
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

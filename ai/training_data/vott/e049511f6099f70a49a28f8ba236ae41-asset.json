@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "e049511f6099f70a49a28f8ba236ae41",
+        "name": "b8560d82-f451-4a2a-85a7-35066e601d99.png",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/b8560d82-f451-4a2a-85a7-35066e601d99.png",
+        "size": {
+            "width": 768,
+            "height": 768
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "BwczpZ7Hn",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 377.6423841059603,
+                "width": 704.4238410596026,
+                "left": 41.32450331125828,
+                "top": 207.25827814569539
+            },
+            "points": [
+                {
+                    "x": 41.32450331125828,
+                    "y": 207.25827814569539
+                },
+                {
+                    "x": 745.748344370861,
+                    "y": 207.25827814569539
+                },
+                {
+                    "x": 745.748344370861,
+                    "y": 584.9006622516556
+                },
+                {
+                    "x": 41.32450331125828,
+                    "y": 584.9006622516556
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

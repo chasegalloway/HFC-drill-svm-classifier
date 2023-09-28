@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "4c1d3a0f69d3b5e85827b728a1682f67",
+        "name": "44241426-tree-stick-isolated-on-white-background.jpg",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/44241426-tree-stick-isolated-on-white-background.jpg",
+        "size": {
+            "width": 852,
+            "height": 1300
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "J6Wiv_gwd",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 1265.5629139072848,
+                "width": 238.8181818181818,
+                "left": 261.2746212121212,
+                "top": 15.066225165562916
+            },
+            "points": [
+                {
+                    "x": 261.2746212121212,
+                    "y": 15.066225165562916
+                },
+                {
+                    "x": 500.092803030303,
+                    "y": 15.066225165562916
+                },
+                {
+                    "x": 500.092803030303,
+                    "y": 1280.6291390728477
+                },
+                {
+                    "x": 261.2746212121212,
+                    "y": 1280.6291390728477
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

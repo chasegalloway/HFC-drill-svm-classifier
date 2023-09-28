@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "84138e1052f07504bc83cf42b6253e88",
+        "name": "depositphotos_209288826-stock-photo-dry-wood-stick-isolated-white.jpg",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/depositphotos_209288826-stock-photo-dry-wood-stick-isolated-white.jpg",
+        "size": {
+            "width": 781,
+            "height": 1700
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "vRjSlfKff",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 1412.9139072847681,
+                "width": 296.0469314079422,
+                "left": 220.6254512635379,
+                "top": 87.25165562913907
+            },
+            "points": [
+                {
+                    "x": 220.6254512635379,
+                    "y": 87.25165562913907
+                },
+                {
+                    "x": 516.6723826714801,
+                    "y": 87.25165562913907
+                },
+                {
+                    "x": 516.6723826714801,
+                    "y": 1500.1655629139073
+                },
+                {
+                    "x": 220.6254512635379,
+                    "y": 1500.1655629139073
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

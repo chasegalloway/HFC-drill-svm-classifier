@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpeg",
+        "id": "29fb4c01b8a3c341536742d1a29396f2",
+        "name": "images%20(2).jpeg",
+        "path": "file:C:/Users/chase/OneDrive/Documents/stickstrainingdata/images%20(2).jpeg",
+        "size": {
+            "width": 225,
+            "height": 225
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "btTj-JSHK",
+            "type": "RECTANGLE",
+            "tags": [
+                "stick"
+            ],
+            "boundingBox": {
+                "height": 182.16059602649008,
+                "width": 198.92384105960267,
+                "left": 0.9312913907284769,
+                "top": 0
+            },
+            "points": [
+                {
+                    "x": 0.9312913907284769,
+                    "y": 0
+                },
+                {
+                    "x": 199.85513245033113,
+                    "y": 0
+                },
+                {
+                    "x": 199.85513245033113,
+                    "y": 182.16059602649008
+                },
+                {
+                    "x": 0.9312913907284769,
+                    "y": 182.16059602649008
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
