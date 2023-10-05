@@ -44,14 +44,14 @@ while running:
     key = cv2.waitKey(1) & 0xFF
 
     # Key actions(Will be better applied later)
-    if key == ord('q'):
+    if key == ord('1'):
         print("Shut down")
         running = False
-    if key == ord('w'):
-        print("Stop")
-    if key == ord('e'):
+    if key == ord('2'):
+        print("Pause")
+    if key == ord('3'):
         print("Resume")
-    if key == ord('r'):
+    if key == ord('4'):
         print("Restart")
 
 # Release the video capture
