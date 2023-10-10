@@ -35,7 +35,7 @@ while running:
     # Draw bounding boxes around the detected hickory sticks
     for (x, y, w, h) in sticks:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (175, 63, 160), 2)
-        cv2.putText(frame, 'stick', (x, y - 10), cv2.FONT_HERSHEY_PLAIN, 0.9, (175, 63, 160), 2)
+        cv2.putText(frame, 'face', (x, y - 10), cv2.FONT_HERSHEY_PLAIN, 0.9, (175, 63, 160), 2)
 
     # Display the processed frame on a screen
     cv2.imshow('v0.2 Incomplete', frame)
@@ -53,6 +53,8 @@ while running:
         print("Resume")
     if key == ord('4'):
         print("Restart")
+    if key == ord('5'):
+        print("TBD")
 
 # Release the video capture
 cap.release()
