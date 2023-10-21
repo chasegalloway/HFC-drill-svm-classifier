@@ -3,9 +3,9 @@ import numpy as np
 import os
 
 # Define the paths to the positive and negative image directories
-positive_images_dir = "training_data/positive_images/"
-negative_images_dir = "training_data/negative_images/"
-neutral_images_dir = "training_data/neutral_images/"
+positive_images_dir = "training_data/positive/"
+negative_images_dir = "training_data/negative/"
+neutral_images_dir = "training_data/neutral/"
 
 # Define the path to store the trained classifier
 classifier_path = "training_data/classifier.xml"
