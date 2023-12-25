@@ -2,3 +2,6 @@ overlayed_image.png
 overlaid_image.png
 test.py
 ai/__pycache__/
+newmodel.xml
+model.xml
+model.npy
